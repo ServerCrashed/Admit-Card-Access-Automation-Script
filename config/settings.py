@@ -19,8 +19,7 @@ SUBJECT_MAPPING = {
     os.getenv("S4") : [os.getenv("S4S"), os.getenv("S4F") ],
     os.getenv("S5") : [os.getenv("S5S"), os.getenv("S5F") ],
     os.getenv("S6") : [os.getenv("S6S"), os.getenv("S6F") ],
-    os.getenv("S7") : [os.getenv("S7S"), os.getenv("S7F") ],
-    os.getenv("S8") : [os.getenv("S8S"), os.getenv("S8F") ]
+    os.getenv("S7") : [os.getenv("S7S"), os.getenv("S7F") ]
 }
 
 if not ROLL or not PASSWORD:

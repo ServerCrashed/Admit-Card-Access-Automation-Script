@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
 from config.settings import *
-
+HOME_URL = "https://reg-exam.dtu.ac.in/student/login"
 def login(driver):
-    driver.get("https://reg.exam.dtu.ac.in/student/login")
+    driver.get(HOME_URL)
     driver.implicitly_wait(0.5)
     if driver.title == "Privacy error":
         advanced_button = driver.find_element(by=By.ID, value="details-button")
